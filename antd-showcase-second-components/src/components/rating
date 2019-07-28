@@ -1,0 +1,22 @@
+import { Rate } from 'antd';
+
+ReactDOM.render(<Rate />, mountNode);
+
+import { Rate } from 'antd';
+
+ReactDOM.render(<Rate allowHalf defaultValue={2.5} />, mountNode);
+
+
+import { Rate, Icon } from 'antd';
+
+ReactDOM.render(
+  <div>
+    <Rate character={<Icon type="heart" />} allowHalf />
+    <br />
+    <Rate character="A" allowHalf style={{ fontSize: 36 }} />
+    <br />
+    <Rate character="好" allowHalf />
+  </div>,
+  mountNode
+);
+
