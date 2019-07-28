@@ -1,0 +1,68 @@
+{
+  "name": "@groceristar/cards-wrapper",
+  "version": "1.0.21",
+  "description": "module to use antd cards between projects",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "repository": "https://github.com/GroceriStar/cards-wrapper-component",
+  "author": "Arthur Tkachenko",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "bundle": "rollup -c",
+    "build": "babel src -d dist",
+    "build:test": "shx rm -rf && babel src -d dist",
+    "#prepare": "yarn clean",
+    "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
+    "lint": "standard",
+    "zprepublish": "yarn clean && yarn build",
+    "test": "CI=true && jest",
+    "test:watch": "jest --watch",
+    "test:cover": "jest --coverage",
+    "code-fix": "standard --fix",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.8.0",
+    "babel-plugin-module-resolver": "3.2.0",
+    "coveralls": "3.0.5",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "jest": "24.8.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "regenerator-runtime": "0.13.3",
+    "rollup": "1.17.0",
+    "rollup-plugin-babel": "4.3.3",
+    "rollup-plugin-commonjs": "10.0.1",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-replace": "2.2.0",
+    "shx": "0.3.2",
+    "standard": "13.1.0"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^1.5.1",
+    "antd": "^3.16.2",
+    "react-image": "^2.1.1",
+    "uuid": "^3.3.2",
+    "snyk": "^1.192.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "snyk": true
+}
