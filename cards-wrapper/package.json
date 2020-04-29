@@ -51,7 +51,7 @@
     "@react-pdf/renderer": "^1.5.1",
     "antd": "^4.0.0",
     "react-image": "^2.1.1",
-    "uuid": "^3.3.2",
+    "uuid": "^8.0.0",
     "snyk": "^1.192.0"
   },
   "peerDependencies": {
