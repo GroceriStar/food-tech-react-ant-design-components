@@ -5922,7 +5922,7 @@ prop-types-exact@^1.2.0:
     object.assign "^4.1.0"
     reflect.ownkeys "^0.2.0"
 
-prop-types@15.7.2, prop-types@15.x, prop-types@^15.5.10, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@15.x, prop-types@^15.5.10, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   dependencies:
@@ -6372,11 +6372,10 @@ react-dom@16.13.1:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-image@^2.1.1:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/react-image/-/react-image-2.1.3.tgz#59d7748a9dea87792b76f9f67ff0fe8d0782c89e"
-  dependencies:
-    prop-types "15.7.2"
+react-image@^3.0.0:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/react-image/-/react-image-3.0.3.tgz#a51268317af77a9a358fa1d0ec9565c98b56aab5"
+  integrity sha512-C6DUCkmrVw3A4Nxz8nA5RYQIJ1V/4XtJYIeUR7f0XoWl3cN6jTYqSQa3/zCJ2PZ4Dk+mgNWQnNZGP30xpmPiYQ==
 
 react-is@^16.12.0:
   version "16.12.0"
