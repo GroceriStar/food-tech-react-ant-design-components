@@ -52,7 +52,7 @@
   "dependencies": {
     "antd": "^4.0.0",
     "react-select": "^5.0.0",
-    "uuid": "^3.3.2",
+    "uuid": "^8.0.0",
     "snyk": "^1.192.4"
   },
   "files": [
