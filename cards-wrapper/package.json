@@ -48,7 +48,7 @@
     "standard": "14.3.3"
   },
   "dependencies": {
-    "@react-pdf/renderer": "^1.5.1",
+    "@react-pdf/renderer": "^2.0.0",
     "antd": "^4.0.0",
     "react-image": "^2.1.1",
     "uuid": "^3.3.2",
